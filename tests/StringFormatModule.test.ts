@@ -5,5 +5,5 @@ let app: Application = new Application();
 app.run([StringFormatModule]);
 
 test("register services", () => {
-    expect(app.getContainer().getNamed("StringFormater", "pascal-case")).toBeInstanceOf(PascalCaseFormater);
+    expect(app.getContainer().getNamed("StringFormater", "pascalCase")).toBeInstanceOf(PascalCaseFormater);
 })

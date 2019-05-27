@@ -1,5 +1,7 @@
 ## Template module
 
+[![Build Status](https://travis-ci.com/pipan/js-string.svg?branch=master)](https://travis-ci.com/pipan/js-string)
+
 Additional functions and services for manipulations with string;
 
 ## Installation
